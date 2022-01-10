@@ -1,4 +1,5 @@
 import './App.css';
+import { Routes, Route, Link } from "react-router-dom";
 import Brands from './component/brands';
 import Catogories from './component/featuredCatagories';
 import Products from './component/featuredProducts';
@@ -8,6 +9,9 @@ import Header from './component/Header';
 import Latest from './component/latestProducts';
 import Offer from './component/offer';
 import Testomonial from './component/testomonial';
+import { Acount } from './component/Acount';
+import Card from './component/Card';
+import View from './component/View';
 
 function App() {
   return (
@@ -15,15 +19,18 @@ function App() {
       <div className="header">
         <div className="container">
           <Header/>
-          <Front/>
+          {/* <Front/> */}
       </div>
     </div>
-    <Catogories/>
+    {/* <Catogories/>
     <Products/>
     <Latest/>
     <Offer/>
     <Testomonial/>
-    <Brands/>
+    <Brands/> */}
+    {/* <Acount/> */}
+    {/* <Card/> */}
+    <View/>
     <Footer/>
   </>
   );
